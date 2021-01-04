@@ -4,7 +4,7 @@
 #
 Name     : R-procmaps
 Version  : 0.0.3
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/procmaps_0.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/procmaps_0.0.3.tar.gz
 Summary  : Portable Address Space Mapping
@@ -41,10 +41,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609787140
+export SOURCE_DATE_EPOCH=1609787628
 
 %install
-export SOURCE_DATE_EPOCH=1609787140
+export SOURCE_DATE_EPOCH=1609787628
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
