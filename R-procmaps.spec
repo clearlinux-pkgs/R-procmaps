@@ -4,7 +4,7 @@
 #
 Name     : R-procmaps
 Version  : 0.0.3
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/procmaps_0.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/procmaps_0.0.3.tar.gz
 Summary  : Portable Address Space Mapping
